@@ -13,6 +13,11 @@
             "url": "https://github.com/studiowbe/php-template.git"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Studiow\\Mikro\\": "src"
+        }
+    },
     "require": {
         "league/route": "^1.2",
         "league/event": "^2.1",
