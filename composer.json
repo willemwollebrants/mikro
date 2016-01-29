@@ -1,0 +1,21 @@
+{
+    "name": "willemwollebrants/mikro",
+    "description": "tiny framework",
+    "authors": [
+        {
+            "name": "Willem Wollebrants",
+            "email": "willem@studiow.be"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/studiowbe/php-template.git"
+        }
+    ],
+    "require": {
+        "league/route": "^1.2",
+        "league/event": "^2.1",
+        "studiow/php-template": "dev-master"
+    }
+}
